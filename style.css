@@ -82,7 +82,7 @@ button:hover {
   background: hsl(212, 21%, 14%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   section,
   #preview {
     display: flex;
