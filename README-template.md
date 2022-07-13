@@ -53,19 +53,46 @@ Users should be able to:
 ### What I learned
 
 
-To see how you can add code snippets, see below:
+Using Flexbox to center sections
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+  min-height: 100vh;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+Using media queries to set a responsive design
+
+```css
+@media (max-width: 500px) {
+  section,
+  #preview {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 340px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 12px;
+  }
+
+  img#perfume {
+    content: url(./images/image-product-mobile.jpg);
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }
+
+  div#text-section {
+    padding: 0;
+    margin: 0 1rem 1rem 1rem;
+  }
 }
 ```
 
