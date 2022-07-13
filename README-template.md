@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-vUHjoaCU4I))
-- Live Site URL: [Product Preview]([https://your-live-site-url.com](https://product-preview-card-component-btc6p9g1c-jxavierjorge.vercel.app/))
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-vUHjoaCU4I)
+- Live Site URL: [Product Preview](https://product-preview-card-component-btc6p9g1c-jxavierjorge.vercel.app/)
 
 ## My process
 
